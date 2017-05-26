@@ -158,6 +158,7 @@ Having set up your `pubsub` topic (in our case `my_pubsub_topic`) and your `Kafk
 bin/connect-standalone.sh config/connect-standalone.properties config/cps-sink-connector.properties
 ```
 If this has worked fine, then all messages from the `my_kafka_topic` on `Kafka` producer must be passed to the `my_pubsub_topic` on `PubSub`.
+
 7. To consume messages from `PubSub` rerun:
 ```Java
 gcloud beta pubsub subscriptions pull test_s
