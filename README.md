@@ -1,7 +1,8 @@
 # kafka-->pubsub-->poc
-| by Dr Christos Hadjinikoli |   
-| Data Reply UK              |   
-| 26/05/2017                 |   
+| Dr Christos Hadjinikolis |
+|--------------------------|
+| Data Reply UK            |
+| 26/05/2017               |
 
 ## On the PubSub side
 Before you begin make sure you have an active GCP account and that you have downloaded and installed the `google cloud SDK`.
